@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Web Design Agency</title>
+    <style>
+        body{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 50px 50px 0px 50px;
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            min-height: 95vh; 
+               }
+               .main{
+                flex:1;
+
+               }
+               h1{
+                font-size: 5rem;
+               }
+               footer{
+                text-align: right;
+                color: darkolivegreen;
+               }
+               .title-image{
+                height: 200px;
+                float: left;
+                margin-right: 50px;
+
+               }
+               .card{
+                width: 45%;
+               }
+               .left{
+                float:left;
+               }
+               .right{
+                float:right;
+               }
+               .creative{
+                color: midnightblue;
+               }
+     @media(max-width:680px){
+        .logo{
+            width: 100px;
+        }
+        h1{
+            text-align: center;
+            font-size: 3.5erm;
+        }
+        .card{
+            width:100%;
+            text-align: justify;
+            display: block;
+            margin-bottom: 30px;
+        }
+        .card img{
+            display: inline;
+            margin-bottom: 10px;
+            object-fit: cover;
+            width: 100%;
+            
+        }
+     }          
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img src="./Images/logo.png" alt="logo image" class="logo" >
+        <h1>We are a <span class="creative">creative</span><br>  design agency</h1>
+        <div class="left card">
+            <img class="title-image" src="./Images/6.jpg" alt="beauty">
+            <h2>Beauty</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quas sequi eligendi voluptatibus.
+                Accusantium minima doloremque blanditiis.</p>
+
+        </div>
+        <div class="right card">
+            <img class="title-image" src="./Images/6.jpg" alt="constructor" >
+            <h2>Construction</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quas sequi eligendi voluptatibus.
+                Accusantium minima doloremque blanditiis.</p>
+
+        </div>
+    </div>
+    <footer>
+        <p>Create | Develop | Design</p>
+    </footer>
+
+</body>
+
+</html>
